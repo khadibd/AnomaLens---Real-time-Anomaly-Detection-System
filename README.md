@@ -67,7 +67,7 @@ ________________________________________________________________________________
 
 \# Clone repository
 
-git clone https://github.com/yourusername/AnomaLens.git
+git clone https://github.com/khadibd/AnomaLens---Real-time-Anomaly-Detection-System
 
 cd AnomaLens
 
@@ -615,5 +615,20 @@ Monitoring with Prometheus/Grafana
 Containerization with Docker
 
 
+_____________________________________________________________________________________________________________________________________________________________________________
+
+
+👩‍💻 Author
+
+Eng. Khadija Bouadi
+
+
+📧 Contact
+
+For any queries, reach out to:
+
+GitHub: @khadibd
+
+Email:  khadijabouadi00@gmail.com 
 
 

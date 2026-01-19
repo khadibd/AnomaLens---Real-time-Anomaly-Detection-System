@@ -1,11 +1,3 @@
-\# 🚀 AnomaLens - Real-time Anomaly Detection System
-
-
-
-A production-ready anomaly detection API for IoT sensor data with real-time monitoring, alerting, and MLOps capabilities.
-
-_____________________________________________________________________________________________________________________________________________________________________________
-
 \## ✨ Features
 
 
@@ -630,5 +622,6 @@ For any queries, reach out to:
 GitHub: @khadibd
 
 Email:  khadijabouadi00@gmail.com 
+
 
 

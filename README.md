@@ -1,32 +1,32 @@
 A production-ready anomaly detection API for IoT sensor data with real-time monitoring, alerting, and MLOps capabilities.
 
 
-✨ Features
+### ✨ Features
 
 
 
-\- \*\*Real-time Anomaly Detection\*\*: Detect anomalies in streaming sensor data
+- Real-time Anomaly Detection: Detect anomalies in streaming sensor data
 
-\- \*\*RESTful API\*\*: Fully documented FastAPI endpoints
+- RESTful API: Fully documented FastAPI endpoints
 
-\- \*\*Multiple Algorithms\*\*: Isolation Forest, One-Class SVM, Local Outlier Factor
+- Multiple Algorithms: Isolation Forest, One-Class SVM, Local Outlier Factor
 
-\- \*\*WebSocket Support\*\*: Real-time anomaly alerts
+- WebSocket Support: Real-time anomaly alerts
 
-\- \*\*Dashboard\*\*: Interactive web dashboard
+- Dashboard: Interactive web dashboard
 
-\- \*\*Model Management\*\*: Versioning, training, and evaluation
+- Model Management: Versioning, training, and evaluation
 
-\- \*\*Monitoring\*\*: System metrics and health checks
+- Monitoring: System metrics and health checks
 
-\- \*\*Alert System\*\*: Email/Slack/Teams notifications
+- Alert System: Email/Slack/Teams notifications
 
-\- \*\*Docker Support\*\*: Easy deployment with Docker Compose
+- Docker Support: Easy deployment with Docker Compose
 
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-\## 🏗️ Architecture
+### 🏗️ Architecture
 
 ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
 
@@ -50,17 +50,17 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-\## 🚀 Quick Start
+## 🚀 Quick Start
 
 
 
-\### 1. Installation
+### 1. Installation
 
 
 
 ```bash
 
-\# Clone repository
+# Clone repository
 
 git clone https://github.com/khadibd/AnomaLens---Real-time-Anomaly-Detection-System
 
@@ -69,7 +69,7 @@ cd AnomaLens
 
 
 ```bash
-\# Create virtual environment
+# Create virtual environment
 
 python -m venv venv
 
@@ -78,7 +78,7 @@ source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 
 
 ```bash
-\# Install dependencies
+# Install dependencies
 
 pip install -r requirements.txt
 ```
@@ -86,12 +86,12 @@ pip install -r requirements.txt
 
 
 
-2\. Start the API
+2. Start the API
 
 
 
 ```bash
-\# Run the FastAPI server
+# Run the FastAPI server
 
 python -m api.main
 ```
@@ -105,7 +105,7 @@ The API will be available at: http://localhost:8000
 
 
 
-3\. Access the Dashboard
+3. Access the Dashboard
 
 
 ```bash
@@ -113,12 +113,12 @@ Open your browser and go to: http://localhost:8000/dashboard
 ```
 
 
-4\. Test the API
+4. Test the API
 
 
 
 ```bash
-\# Run the test suite
+# Run the test suite
 
 python test\_api.py
 ```
@@ -127,7 +127,7 @@ python test\_api.py
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-📚 API Documentation
+### 📚 API Documentation
 
 
 ```bash
@@ -145,11 +145,11 @@ ________________________________________________________________________________
 
 
 
-🐳 Docker Deployment
+### 🐳 Docker Deployment
 
 
 ```bash
-\# Build and run with Docker Compose
+# Build and run with Docker Compose
 
 docker-compose up --build
 ```
@@ -157,21 +157,21 @@ docker-compose up --build
 
 ```bash
 
-\# Run in background
+# Run in background
 
 docker-compose up -d
 ```
 
 
 ```bash
-\# View logs
+# View logs
 
 docker-compose logs -f
 ```
 
 
 ```bash
-\# Stop services
+# Stop services
 
 docker-compose down
 ```
@@ -180,7 +180,7 @@ docker-compose down
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-📊 Monitoring \& Observability
+### 📊 Monitoring \& Observability
 
 
 
@@ -255,25 +255,25 @@ Monitoring and retraining
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-🧪 Testing
+### 🧪 Testing
 
 
 ```bash
-\# Run unit tests
+# Run unit tests
 
 pytest tests/
 ```
 
 
 ```bash
-\# Run with coverage
+# Run with coverage
 
 pytest --cov=api tests/
 ```
 
 
 ```bash
-\# Run performance tests
+# Run performance tests
 
 python test\_api.py
 ```
@@ -283,7 +283,7 @@ ________________________________________________________________________________
 
 
 
-📈 Performance
+### 📈 Performance
 
 Latency: < 50ms per prediction
 
@@ -302,7 +302,7 @@ Scalability: Horizontal scaling with Docker
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-🔒 Security
+### 🔒 Security
 
 CORS configuration
 
@@ -325,7 +325,7 @@ HTTPS support (planned)
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-📁 Project Structure
+### 📁 Project Structure
 
 
 ```bash
@@ -375,13 +375,13 @@ AnomaLens/
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-🚀 Production Deployment
+### 🚀 Production Deployment
 
-1\. Environment Setup
+1. Environment Setup
 
 
 ```bash
-\# Set production environment
+# Set production environment
 
 export DEBUG=False
 
@@ -390,11 +390,11 @@ export PORT=80
 
 
 
-2\. Database Setup
+2. Database Setup
 
 
 ```bash
-\# Setup PostgreSQL (optional)
+# Setup PostgreSQL (optional)
 
 docker run --name anomalens-db -e POSTGRES\_PASSWORD=secret -d postgres
 ```
@@ -411,7 +411,7 @@ docker build -t anomalens:latest .
 ```
 
 
-4\. Deploy to Cloud
+4. Deploy to Cloud
 
 AWS: ECS/EKS with Fargate
 
@@ -430,9 +430,9 @@ Heroku: Simple one-click deploy
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-🎯 Use Cases
+### 🎯 Use Cases
 
-1\. Industrial IoT
+1. Industrial IoT
 
 Predictive maintenance
 
@@ -446,7 +446,7 @@ Quality control
 
 
 
-2\. Smart Cities
+2. Smart Cities
 
 Traffic pattern analysis
 
@@ -460,7 +460,7 @@ Environmental monitoring
 
 
 
-3\. Healthcare
+3. Healthcare
 
 Patient monitoring
 
@@ -474,7 +474,7 @@ Hospital equipment management
 
 
 
-4\. Finance
+4. Finance
 
 Fraud detection
 
@@ -489,7 +489,7 @@ Risk assessment
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-🤝 Contributing
+### 🤝 Contributing
 
 Fork the repository
 
@@ -512,7 +512,7 @@ Submit a pull request
 
 _____________________________________________________________________________________________________________________________________________________________________________
 
-📄 License
+### 📄 License
 
 MIT License - see LICENSE file
 
@@ -520,7 +520,7 @@ MIT License - see LICENSE file
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 
 Built with FastAPI
 
@@ -544,18 +544,19 @@ Containerization with Docker
 _____________________________________________________________________________________________________________________________________________________________________________
 
 
-👩‍💻 Author
+### 👩‍💻 Author
 
 Eng. Khadija Bouadi
 
 
-📧 Contact
+### 📧 Contact
 
 For any queries, reach out to:
 
 GitHub: @khadibd
 
 Email:  khadibd00@gmail.com
+
 
 
 
